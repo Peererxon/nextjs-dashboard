@@ -1,7 +1,9 @@
 import SideNav from "@/app/ui/dashboard/sidenav";
+export const experimental_ppr = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
 	// pages inside /dashboard will automatically be nested inside a <Layout />
+
 	return (
 		<div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
 			<div className="w-full flex-none md:w-64">
